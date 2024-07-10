@@ -6,14 +6,14 @@
     font-size: 60px;
 }
 
-.menu-defined {
+.sub-nav {
     text-align: center;
     margin: auto;
     font-size: 18px;
     width: 100%;
 }
 
-.menu-header, .menu-defined {
+.menu-header, .sub.nav {
     background-color: #393939;
     color: white;
     font-weight: light;
