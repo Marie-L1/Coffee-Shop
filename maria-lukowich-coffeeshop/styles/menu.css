@@ -1,5 +1,7 @@
 .menu-header {
-
+    width: 300px;
+    height: 200px;
+    background-color: #393939;
 }
 
 .menu-defined {
@@ -35,5 +37,8 @@
     color: #5BACC3;
 }
 
-
+h3 {
+    size: 33 px;
+    font-weight: light 300;
+}
 
