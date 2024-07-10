@@ -1,16 +1,15 @@
 body {
     font-family: 'Open Sans';
-    font-weight: 400;
 }
 
 .nav-heading {
     size: 33px;
-    font-weight: light 300;
+    font-weight: light;
 }
 
 .nav-bar {
     size: 21px;
-    font-weight: regular 400;
+    
 }
 
 .icon {
