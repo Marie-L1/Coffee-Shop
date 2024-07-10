@@ -1,15 +1,16 @@
 body {
     font-family: 'Open Sans';
+    font-weight: 400;
 }
 
-.nav-heading {
+.nitro-heading {
     size: 33px;
-    font-weight: light;
+    font-weight: lighter;
+    text-align: left;
 }
 
 .nav-bar {
     size: 21px;
-    
 }
 
 .icon {

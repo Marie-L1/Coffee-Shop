@@ -9,14 +9,14 @@
 .sub-nav {
     text-align: center;
     margin: auto;
-    font-size: 18px;
+    font-size: 21px;
     width: 100%;
 }
 
-.menu-header, .sub.nav {
+.menu-header, .sub-nav {
     background-color: #393939;
     color: white;
-    font-weight: light;
+    font-weight: lighter;
 }
 
 .coffee-circle {
@@ -36,22 +36,30 @@
 
 .hot-drinks, .cold-drinks, .pastries {
     color: #393939;
-
+    padding: 50px;
 }
 
 .cost {
     color: #5BACC3;
 }
 
-h2, h3 {
-    size: 33 px;
-    font-weight: light;
+.section-title {
+    font-size: 60px;
+    font-weight: 300;
     text-align: center;
 }
 
 p {
-    font: italic;
+    font-style: italic;
     font-size: 18px;
     color: #393939;
     text-align: center;
+    font-weight: 400;
+    margin: ;
+}
+
+h3 {
+    text-align: center;
+    size: 33px;
+    font-weight: 300;
 }
