@@ -4,13 +4,13 @@ body {
 }
 
 .nitro-heading {
-    size: 33px;
+    font-size: 33px;
     font-weight: 300;
     text-align: left;
 }
 
 .nav-bar {
-    size: 21px;
+    font-size: 21px;
     font-weight: 400;
 }
 

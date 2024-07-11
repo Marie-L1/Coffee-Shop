@@ -11,7 +11,13 @@
     font-size: 21px;
     width: 100%;
     font-weight: 400;
-    padding: -10px;
+    padding: 0;
+}
+
+.sub-nav h2 {
+    display: block;
+    margin: 10px;
+    font-weight: 400;
 }
 
 
@@ -37,12 +43,12 @@
 }
 
 .hot-drinks, .cold-drinks {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .hot-drinks, .cold-drinks, .pastries {
     color: #393939;
-    padding: 40px;
+    padding: 10px 20px;
     
 }
 
