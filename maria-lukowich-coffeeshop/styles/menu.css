@@ -1,17 +1,25 @@
-
-
 .sub-nav {
-    text-align: center;
-    font-size: 21px;
     width: 100%;
-    font-weight: 400;
-    padding: 0;
+    height: 80px;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
 }
 
 .sub-nav h2 {
-    display: block;
+    display: inline-block;
     margin: 10px;
     font-weight: 400;
+    padding-left: 20px;
+    border-left: 4px #5BACC3 solid;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.sub-nav h2 a {
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -28,8 +36,14 @@
     object-fit: cover;
 }
 
+article {
+    margin: 0;
+    padding: 0;
+}
+
 .hot-drinks, .pastries {
     background-color: #FFF0ED;
+    margin-top: 0;
 }
 
 .cold-drinks {
@@ -37,16 +51,16 @@
 }
 
 .hot-drinks {
-    margin-top: 50px;
+    margin-top: -20px;
 }
 
 .hot-drinks, .cold-drinks {
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 
 .hot-drinks, .cold-drinks, .pastries {
     color: #393939;
-    padding: 5px 20px;
+    padding: 20px;
     
 }
 
