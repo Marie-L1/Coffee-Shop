@@ -13,3 +13,34 @@ body {
     margin-bottom: 50px;
     padding: 5px 20px;
 }
+
+.large-coffee-bag-image {
+    height: 280px;
+}
+
+.shop-now-button, .view-all-button {
+    color: white;
+    background-color: #5BAcc3;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.discount-banner {
+    width: 90%;
+    background-color: #393939;
+    color: white;
+    font-size: 44px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+}
+
+.discount-code {
+    font-weight: 700;
+}
+
+.view-all-button {
+    margin-bottom: -10px;
+    padding: 0;
+}
