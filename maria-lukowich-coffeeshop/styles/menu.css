@@ -8,10 +8,12 @@
 
 .sub-nav {
     text-align: center;
-    margin: auto;
     font-size: 21px;
     width: 100%;
+    font-weight: 400;
+    padding: -10px;
 }
+
 
 .menu-header, .sub-nav {
     background-color: #393939;
