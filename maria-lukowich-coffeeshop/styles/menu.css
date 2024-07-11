@@ -42,13 +42,17 @@
     background-color: #f7f7f7;
 }
 
+.hot-drinks {
+    margin-top: 50px;
+}
+
 .hot-drinks, .cold-drinks {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .hot-drinks, .cold-drinks, .pastries {
     color: #393939;
-    padding: 10px 20px;
+    padding: 5px 20px;
     
 }
 
