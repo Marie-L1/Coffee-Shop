@@ -61,6 +61,7 @@ article {
 .hot-drinks, .cold-drinks, .pastries {
     color: #393939;
     padding: 20px;
+    width: 100%;
     
 }
 
