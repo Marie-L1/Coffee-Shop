@@ -65,6 +65,17 @@ article {
     
 }
 
+.hot-drinks h3, .cold-drinks h3, .pastries h3 {
+    font-size: 33px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.hot-drinks p, .cold-drinks p, .pastries p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .cost {
     color: #5BACC3;
 }
