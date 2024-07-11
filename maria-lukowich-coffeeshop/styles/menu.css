@@ -1,10 +1,4 @@
-.menu-header {
-    width: 300px;
-    height: 200px;
-    text-align: center;
-    margin: auto;
-    font-size: 60px;
-}
+
 
 .sub-nav {
     text-align: center;
@@ -78,8 +72,4 @@ h3 {
     text-align: center;
     size: 33px;
     font-weight: 300;
-}
-
-ul {
-    list-style-type: none;
 }
