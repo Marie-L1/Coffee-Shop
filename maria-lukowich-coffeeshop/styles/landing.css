@@ -1,5 +1,15 @@
+body {
+    color: #393939;
+}
 
 .index-header {
     font-weight: 300;
-    color: #393939;
+    display: inline;
+}
+
+.nitro-coffee-section {
+    background-color: #FFF0ED;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px 20px;
 }
