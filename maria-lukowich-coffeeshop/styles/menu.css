@@ -93,7 +93,7 @@ body, article {
     margin-bottom: 5px;
 }
 
-.item-description {
+.hot-drinks__description, .cold-drinks__description, .pastries__description {
     margin-top: 10px;
     margin-bottom: 20px;
     line-height: 1.8;
@@ -110,7 +110,7 @@ body, article {
     font-style: normal;
 }
 
-.section-title {
+.hot-drinks__title, .cold-drinks__title, .pastries__title {
     font-size: 60px;
     font-weight: 300;
     text-align: center;
