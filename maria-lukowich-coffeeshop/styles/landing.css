@@ -1,57 +1,50 @@
 body {
     color: #393939;
-}
-
-section {
-    display: block;
-    margin: 20px;
-}
-
-main {
     display: block;
 }
 
-/* nitro coffee area */
-
-.nitro-coffee__title {
-    font-weight: 300;
-    text-align: left;
-    
-}
-
+/* introduction */
 .nitro-coffee {
     background-color: #FFF0ED;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 5px 20px;
 }
 
-.nitro-coffee__bag {
+.nitro-coffee__title{
+    font-size: 60px;
+    font-weight: 300px;
+}
+
+.nitro-coffee__btn{}
+
+.nitro-coffee__bag{
     height: 280px;
-    align-items: right;
 }
 
-.nitro-coffee__btn, .btn__view-all {
+.nitro-coffee__text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.nitro-coffee__btn, .btn__view-all{
+    width: 180px;
+    padding: 20px;
+    margin: 20px;
     color: white;
-    background-color: #5BAcc3;
-    border: none;
-    box-shadow: none;
-    outline: none;
+    background-color: #5bacc3;
 }
 
+/* cards section */
 
-/* our product section */
-.products {
-    background-color: #F7F7F7;
+.products{
+
 }
 
-.btn__view-all {
-    margin-bottom: -10px;
-    padding: 0;
+.products__title{
+    font-size: 60px;
+    font-weight: 300px;
 }
 
-/* cards */
-.card {
+.card{
     width: 330px;
     height: 440px;
     padding: 20px;
@@ -60,21 +53,89 @@ main {
     box-shadow: 0 5px 9px -1px;
     box-shadow: rgba(0 0 0 0.25);
     display: inline-block;
+
 }
 
-/* discount area */
-.discount-banner {
-    width: 90%;
-    background-color: #393939;
-    color: white;
-    font-size: 44px;
+.card__image{
+    height: 280px;
+
+}
+
+.card__title{
+    font-size: 33px;
+    font-weight: 300px;
+}
+
+.card__cost {
+    font-size: 18px;
+    color: #5bacc3;
     font-weight: 400;
-    text-align: center;
-    padding: 0;
 }
 
-.discount-banner__code {
+.btn__view-all{
+
+}
+
+
+/* discount section */
+
+.discount-banner{
+    font-size: 45px;
+    font-weight: 400;
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    background-color: #393939;
+}
+
+.discount-banner__code{
     font-weight: 700;
 }
 
+
 /* footer */
+
+.address{}
+
+.address__title{
+    
+}
+
+.address__description{
+
+}
+
+.address__street{}
+
+.address__description, .address__street{
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.hours{}
+
+.hours__title{}
+
+.hours__mon-fri, .hours__sat-sun {
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.hours__sat-sun{}
+
+.social{}
+
+.social__title{}
+
+.social__link{}
+
+.social__icon{
+    width: 50px;
+}
+
+.address__title, .hours__title, .social__title{
+    font-size: 33px;
+    font-weight: 300px;
+}
+
