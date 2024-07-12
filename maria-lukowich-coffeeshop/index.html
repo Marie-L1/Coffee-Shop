@@ -11,22 +11,24 @@
 
 <body>
     <header>
-        <img src="../assets/coffee-beans-logo-and-footer.svg" class="icon">
-        <h3 class="nitro-heading">nitro</h3>
-        
-        <nav class="nav-bar-container">
-            <ul class="nav-bar">
-                <li><a href="./index.html"></a>ABOUT</li>
-                <li><a href="./pages/menu.html"></a>MENU</li>
-                <li class="shop-now-nav"><a href="./pages/menu.html"></a>SHOP NOW</li>
-            </ul>
-        </nav>
+        <section class="navigation">
+            <img src="./assets/coffee-beans-logo-and-footer.svg" class="navigation__icon">
+            <h3 class="navigation__nitro-heading">nitro</h3>
+            
+            <nav class="navigation__container">
+                <ul class="navigation__bar">
+                    <li><a href="./index.html">ABOUT</a></li>
+                    <li><a href="./pages/menu.html">MENU</a></li>
+                    <li class="navigation__shop-now"><a href="./pages/menu.html">SHOP NOW</a></li>
+                </ul>
+            </nav>
+        </section>
 
-        <section class="nitro-coffee-section">
-            <h1 class="index-header">Nitro Coffee</h1>
+        <section class="nitro-coffee">
+            <h1 class="nitro-coffee__title">Nitro Coffee</h1>
             <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
-            <button type="" class="shop-now-button">SHOP NOW</button>
-            <img src="./assets/coffeebeans.png" alt="coffeebeans" class="large-coffee-bag-image">
+            <button class="nitro-coffee__btn">SHOP NOW</button>
+            <img src="./assets/coffeebeans.png" alt="coffeebeans" class="nitro-coffee__bag">
         </section>
 
     </header>
@@ -58,26 +60,27 @@
                  <button class="btn__view-all">VIEW ALL</button>
             </section>
         
-            <p class="discount-banner">Get 20% off your first order with code: <span class="discount-code">FirstNitro</span></p>
-        </main>
+            <p class="discount-banner">Get 20% off your first order with code: <span class="discount-banner__code">FirstNitro</span></p>
+    </main>
         
-        <footer>
-            <section class="address">
-                <h3>Address</h3>
-                <p>503 Broadway Penthouse</p>
-                <p>New York</p>
-            </section>
-            <section class="hours">
-                <h3>Hours</h3>
-                <p>Monday - Friday: 9am - 7pm</p>
-                <p>Saturday - Sunday: 10am - 5pm</p>
-            </section>
-            <section class="social">
-                <h3>Social</h3>
-                <a href="facebook.com"><img src="./assets/Facebook-Icon.svg" alt="facebook" class="social-icon"></a>
-                <a href="yelp.com"><img src="./assets/Yelp-Icon.svg" alt="yelp" class="social-icon"></a>
-                <a href="instagram.com"><img src="./assets/Instagram-Icon.svg" alt="instagram" class="social-icon"></a>
-            </section>
+    <footer>
+
+        <section class="address">
+            <h3 class="address_title">Address</h3>
+            <p class="address__description">503 Broadway Penthouse</p>
+            <p class="address__street">New York</p>
+        </section>
+        <section class="hours">
+            <h3 class="hours__title">Hours</h3>
+            <p class="hours__mon-fri">Monday - Friday: 9am - 7pm</p>
+            <p class="hours__sat-sun">Saturday - Sunday: 10am - 5pm</p>
+        </section>
+        <section class="social">
+            <h3 class="social__title">Social</h3>
+            <a class="social__link" href="facebook.com"><img src="./assets/Facebook-Icon.svg" alt="facebook" class="social__icon"></a>
+            <a class="social__link" href="yelp.com"><img src="./assets/Yelp-Icon.svg" alt="yelp" class="social__icon"></a>
+            <a class="social__link" href="instagram.com"><img src="./assets/Instagram-Icon.svg" alt="instagram" class="social__icon"></a>
+        </section>
     </footer>
 
 </body>

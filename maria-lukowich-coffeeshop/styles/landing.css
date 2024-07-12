@@ -2,23 +2,36 @@ body {
     color: #393939;
 }
 
-.index-header {
-    font-weight: 300;
-    display: inline;
+section {
+    display: block;
+    margin: 20px;
 }
 
-.nitro-coffee-section {
+main {
+    display: block;
+}
+
+/* nitro coffee area */
+
+.nitro-coffee__title {
+    font-weight: 300;
+    text-align: left;
+    
+}
+
+.nitro-coffee {
     background-color: #FFF0ED;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 5px 20px;
 }
 
-.large-coffee-bag-image {
+.nitro-coffee__bag {
     height: 280px;
+    align-items: right;
 }
 
-.shop-now-button, .btn__view-all {
+.nitro-coffee__btn, .btn__view-all {
     color: white;
     background-color: #5BAcc3;
     border: none;
@@ -26,6 +39,30 @@ body {
     outline: none;
 }
 
+
+/* our product section */
+.products {
+    background-color: #F7F7F7;
+}
+
+.btn__view-all {
+    margin-bottom: -10px;
+    padding: 0;
+}
+
+/* cards */
+.card {
+    width: 330px;
+    height: 440px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px -1px;
+    box-shadow: rgba(0 0 0 0.25);
+    display: inline-block;
+}
+
+/* discount area */
 .discount-banner {
     width: 90%;
     background-color: #393939;
@@ -36,15 +73,8 @@ body {
     padding: 0;
 }
 
-.discount-code {
+.discount-banner__code {
     font-weight: 700;
 }
 
-.btn__view-all {
-    margin-bottom: -10px;
-    padding: 0;
-}
-
-.social-icon {
-    width: 50px;
-}
+/* footer */
