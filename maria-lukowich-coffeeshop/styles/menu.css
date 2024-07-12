@@ -79,7 +79,7 @@ body, article {
     width: 100%;
 }
 
-.hot-drinks h3, .cold-drinks h3, .pastries h3 {
+.hot-drinks__item, .cold-drinks__item, .pastries__item {
     font-size: 33px;
     font-weight: 300;
     margin-bottom: 5px;
@@ -103,7 +103,7 @@ body, article {
     font-weight: 400;
 }
 
-.cost {
+.hot-drinks__cost, .cold-drinks__cost, .pastries__cost {
     color: #5BACC3;
     font-weight: 400;
     font-size: 18;
