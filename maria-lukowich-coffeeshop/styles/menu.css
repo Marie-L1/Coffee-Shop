@@ -76,8 +76,17 @@ article {
     margin-bottom: 5px;
 }
 
+.item-description {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    display: block;
+}
+
 .cost {
     color: #5BACC3;
+    font-weight: 400;
+    font-size: 18;
 }
 
 .section-title {
