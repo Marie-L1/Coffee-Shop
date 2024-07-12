@@ -18,7 +18,7 @@ body {
     height: 280px;
 }
 
-.shop-now-button, .view-all-button {
+.shop-now-button, .btn__view-all {
     color: white;
     background-color: #5BAcc3;
     border: none;
@@ -40,7 +40,7 @@ body {
     font-weight: 700;
 }
 
-.view-all-button {
+.btn__view-all {
     margin-bottom: -10px;
     padding: 0;
 }
