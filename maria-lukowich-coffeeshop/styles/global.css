@@ -15,8 +15,10 @@ body {
     font-weight: 400;
     list-style-type: none;
     padding: 20px;
+    padding-top: 100px;
     background-color: #fff0ef;
-
+    z-index: 100; /* above all elements */
+    width: 100%;
 }
 
 .nav-bar li {
