@@ -1,34 +1,76 @@
 body {
     font-family: 'Open Sans';
     font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff0ef;
+    z-index: 100; /* above all elements */
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: relative;
 }
 
 .nitro-heading {
-    font-size: 33px;
+    font-size: 50px;
     font-weight: 300;
     text-align: left;
-    position: absolute;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #393939;
 }
 
 .nav-bar {
     font-size: 21px;
     font-weight: 400;
     list-style-type: none;
-    padding: 20px;
-    padding-top: 100px;
-    background-color: #fff0ef;
-    z-index: 100; /* above all elements */
-    width: 100%;
+    padding: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding-bottom: 10px;
 }
+
 
 .nav-bar li {
     display: inline-block;
     margin-right: 20px;
     text-align: center;
+    margin-top: 50px;
+    margin-right: 40px;
+    padding-left: 20px;
+
+}
+
+.shop-now-nav {
+    color: #5bacc3
+    
+}
+
+.nav-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 0;
 }
 
 .icon {
     width: 50px;
+    align-items: left;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.icon .nitro-heading {
+    padding-left: 10px;
 }
 
 h1 {
