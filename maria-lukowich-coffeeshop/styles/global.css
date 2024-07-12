@@ -50,9 +50,13 @@ header {
 
 }
 
-.shop-now-nav {
+.nav-bar a {
+    text-decoration: none;
+    color: #393939;
+}
+
+.nav-bar a.shop-now-nav {
     color: #5bacc3
-    
 }
 
 .nav-bar-container {
