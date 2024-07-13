@@ -6,6 +6,7 @@ body {
 /* introduction */
 .nitro-coffee {
     background-color: #FFF0ED;
+    padding-bottom: 50px;
 }
 
 .nitro-coffee__title{
@@ -34,14 +35,16 @@ body {
     color: white;
     background-color: #5bacc3;
     border: none;
-    size: 21px; 
+    size: 33px; 
     font-weight: 400;
 }
 
 /* cards section */
 
 .products{
-
+    background-color: #F7f7f7;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .products__title{
@@ -89,9 +92,12 @@ body {
     font-weight: 400;
     width: 90%;
     padding: 20px;
-    margin: 20px;
+    margin: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     color: white;
     background-color: #393939;
+    align-items: center;
 }
 
 .discount-banner__code{
@@ -102,7 +108,8 @@ body {
 /* footer */
 
 .footer-section {
-    display: inline-block;
+    display: inline;
+    background-color: #FFF0ED;
 }
 
 .address{
