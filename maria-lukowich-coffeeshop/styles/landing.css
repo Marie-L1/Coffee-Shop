@@ -57,14 +57,14 @@ body {
     margin-right: 200px;
 }
 
-.nitro-coffee__btn, .btn__view-all{
+button{
     width: 180px;
     padding: 20px;
     margin: 20px;
     color: white;
     background-color: #5bacc3;
     border: none;
-    size: 33px; 
+    font-size: 21px; 
     font-weight: 400;
     margin-left: 60px;
 }
@@ -74,44 +74,53 @@ body {
 .products{
     background-color: #F7f7f7;
     margin-bottom: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .products__title{
     font-size: 60px;
     font-weight: 300;
+    margin-bottom: 30px;
 }
 
 .card{
     width: 330px;
     height: 440px;
-    padding: 20px;
+    padding: 40px;
     margin: 20px;
     border-radius: 10px;
-    box-shadow: 0 5px 9px -1px;
-    box-shadow: rgba(0 0 0 0.25);
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
     display: inline-block;
-    align-items: center;
+    text-align: center;
+    background-color: white;
 }
 
 .card__image{
-    height: 280px;
-
+    height: 200px;
+    display: block;
+    margin: 0 auto 30px;
+    align-items: center;
 }
 
 .card__title{
     font-size: 33px;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .card__cost {
-    font-size: 18px;
+    font-size: 33px;
     color: #5bacc3;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
 .btn__view-all{
-
+    align-items: center;
+    margin: 30px;
+    margin-bottom: 
 }
 
 
