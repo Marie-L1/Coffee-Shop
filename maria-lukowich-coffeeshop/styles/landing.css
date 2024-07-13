@@ -132,8 +132,8 @@ button{
     width: 90%;
     padding: 20px 40px;
     margin: 100px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     color: white;
     background-color: #393939;
     align-items: center;
@@ -152,6 +152,7 @@ button{
     padding: 50px;
     display: flex;
     justify-content: space-around;
+    padding-top: 60px;
 }
 
 .address__title, .hours__title, .social__title{
