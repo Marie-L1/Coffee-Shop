@@ -40,13 +40,14 @@ body {
 .nitro-coffee__bag{
     float: right;
     margin-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 30px;
-    margin-right: 150px;
+    margin-right: 200px;
     flex-basis: 20%;   
     text-align: left;
     height: auto;
     width: auto;
+    max-width: 70%;
 }
 
 .nitro-coffee__text {
