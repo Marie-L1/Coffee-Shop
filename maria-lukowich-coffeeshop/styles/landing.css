@@ -1,25 +1,33 @@
 body {
     color: #393939;
-    display: block;
 }
 
 /* introduction */
 .nitro-coffee {
     background-color: #FFF0ED;
-    padding-bottom: 50px;
+    padding-bottom: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.nitro-coffee__title{
+.nitro-coffee__title {
     font-size: 60px;
-    font-weight: 300px;
-}
-
-.nitro-coffee__btn{
-
+    font-weight: 300;
 }
 
 .nitro-coffee__bag{
-    height: 280px;
+    height: 400px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    flex-basis: 100%;   /* I know we are learning flexbox next week :) */
+    text-align: left;
+}
+
+.nitro-coffee__content {
+    flex: 1;
+    max-width: 60%;
 }
 
 .nitro-coffee__text {
@@ -49,7 +57,7 @@ body {
 
 .products__title{
     font-size: 60px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 .card{
@@ -71,7 +79,7 @@ body {
 
 .card__title{
     font-size: 33px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 .card__cost {
@@ -112,12 +120,17 @@ body {
     background-color: #FFF0ED;
 }
 
+.address__title, .hours__title, .social__title{
+    font-size: 33px;
+    font-weight: 300;
+}
+
 .address{
     
 }
 
 .address__title{
-    
+    font-weight: 300;
 }
 
 .address__description{
@@ -128,32 +141,31 @@ body {
 
 .address__description, .address__street{
     font-size: 18px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 .hours{}
 
-.hours__title{}
+.hours__title {
+    
+}
 
 .hours__mon-fri, .hours__sat-sun {
     font-size: 18px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 .hours__sat-sun{}
 
 .social{}
 
-.social__title{}
-
-.social__link{}
+.social__title {
+    
+}
 
 .social__icon{
     width: 50px;
 }
 
-.address__title, .hours__title, .social__title{
-    font-size: 33px;
-    font-weight: 300px;
-}
+
 
