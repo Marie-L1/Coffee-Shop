@@ -7,15 +7,27 @@ body {
 /* introduction */
 .nitro-coffee {
     background-color: #FFF0ED;
-    padding-bottom: 25px;
+    padding: 25px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
+}
+
+.nitro-coffee__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60%;
+    margin-top: 30px;
 }
 
 .nitro-coffee__title {
     font-size: 60px;
     font-weight: 300;
+    display: inline;
+    margin-left: 55px;
+    margin-top: 50px;
+    white-space: nowrap;
 }
 
 .nitro-coffee__bag{
@@ -30,18 +42,10 @@ body {
     width: auto;
 }
 
-.nitro-coffee__content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    max-width: 60%;
-}
-
 .nitro-coffee__text {
     font-size: 18px;
     font-weight: 400;
-    margin: 5px 0;
+    margin-bottom: 10px;
    
 }
 
@@ -78,7 +82,7 @@ body {
     box-shadow: 0 5px 9px -1px;
     box-shadow: rgba(0 0 0 0.25);
     display: inline-block;
-
+    align-items: center;
 }
 
 .card__image{
