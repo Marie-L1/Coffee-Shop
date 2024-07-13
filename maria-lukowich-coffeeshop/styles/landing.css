@@ -130,13 +130,14 @@ button{
     font-size: 45px;
     font-weight: 400;
     width: 90%;
-    padding: 20px;
+    padding: 20px 40px;
     margin: 100px;
     margin-top: 150px;
     margin-bottom: 150px;
     color: white;
     background-color: #393939;
     align-items: center;
+    text-align: center;
 }
 
 .discount-banner__code{
@@ -147,30 +148,23 @@ button{
 /* footer */
 
 .footer-section {
-    display: inline;
     background-color: #FFF0ED;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .address__title, .hours__title, .social__title{
     font-size: 33px;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .address{
     
 }
 
-.address__title{
-    font-weight: 300;
-}
-
-.address__description{
-
-}
-
-.address__street{}
-
-.address__description, .address__street{
+.address__description, .address__street, .hours__mon-fri, .hours__sat-sun {
     font-size: 18px;
     font-weight: 300;
 }
@@ -181,18 +175,10 @@ button{
     
 }
 
-.hours__mon-fri, .hours__sat-sun {
-    font-size: 18px;
-    font-weight: 300;
-}
-
 .hours__sat-sun{}
 
 .social{}
 
-.social__title {
-    
-}
 
 .social__icon{
     width: 50px;
