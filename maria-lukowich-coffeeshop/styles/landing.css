@@ -19,12 +19,12 @@ body {
 }
 
 .nitro-coffee__content {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 60%;
     margin-top: 30px;
     margin-left: 50px;
+    padding: 10px;
 }
 
 .nitro-coffee__title {
@@ -51,8 +51,9 @@ body {
 .nitro-coffee__text {
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 10px;
-   margin-left: 60px;
+    margin-bottom: 20;
+    margin-left: 60px;
+    margin-right: 200px;
 }
 
 .nitro-coffee__btn {
