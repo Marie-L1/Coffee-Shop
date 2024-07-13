@@ -4,10 +4,15 @@ body {
     color: #393939;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* introduction */
 .nitro-coffee {
     background-color: #FFF0ED;
-    padding: 25px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,6 +24,7 @@ body {
     justify-content: center;
     max-width: 60%;
     margin-top: 30px;
+    margin-left: 50px;
 }
 
 .nitro-coffee__title {
@@ -26,15 +32,15 @@ body {
     font-weight: 300;
     display: inline;
     margin-left: 55px;
-    margin-top: 50px;
+    margin-top: 80px;
     white-space: nowrap;
 }
 
 .nitro-coffee__bag{
     float: right;
     margin-left: 10px;
-    margin-bottom: 5px;
-    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
     margin-right: 150px;
     flex-basis: 20%;   
     text-align: left;
@@ -46,7 +52,11 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 10px;
-   
+   margin-left: 60px;
+}
+
+.nitro-coffee__btn {
+    margin-left: 
 }
 
 .nitro-coffee__btn, .btn__view-all{
