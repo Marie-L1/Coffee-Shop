@@ -51,13 +51,10 @@ body {
 .nitro-coffee__text {
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 20;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 60px;
     margin-right: 200px;
-}
-
-.nitro-coffee__btn {
-    margin-left: 
 }
 
 .nitro-coffee__btn, .btn__view-all{
@@ -69,6 +66,7 @@ body {
     border: none;
     size: 33px; 
     font-weight: 400;
+    margin-left: 60px;
 }
 
 /* cards section */
