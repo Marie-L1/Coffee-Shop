@@ -133,6 +133,7 @@ button{
     font-size: 45px;
     font-weight: 400;
     width: 90%;
+    max-width: 1200px;
     padding: 20px 20px;
     margin: 100px;
     margin: auto;
@@ -162,7 +163,7 @@ button{
 .address, .hours, .social {
     flex: 1;
     max-width: 300px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -170,6 +171,7 @@ button{
     font-size: 33px;
     font-weight: 300;
     margin-bottom: 20px;
+    flex: 1; /* equal space distribution */
 }
 
 .address__description, .address__street, .hours__mon-fri, .hours__sat-sun {
