@@ -120,7 +120,9 @@ button{
 .btn__view-all{
     align-items: center;
     margin: 30px;
-    margin-bottom: 
+    margin-bottom: 30px;
+    
+    display: block;
 }
 
 
@@ -130,13 +132,13 @@ button{
     font-size: 45px;
     font-weight: 400;
     width: 90%;
-    padding: 20px 40px;
+    padding: 20px 20px;
     margin: 100px;
+    margin: auto;
     margin-top: 200px;
     margin-bottom: 200px;
     color: white;
     background-color: #393939;
-    align-items: center;
     text-align: center;
 }
 
