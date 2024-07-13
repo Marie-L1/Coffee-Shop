@@ -94,18 +94,24 @@ body, article {
 }
 
 .hot-drinks p, .cold-drinks p, .pastries p {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .hot-drinks__description, .cold-drinks__description, .pastries__description {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
     line-height: 1.8;
     display: block;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 400;
+    max-width: 325px;
+    text-align: center;
+}
+
+.hot-drinks div, .cold-drinks div, .pastries div {
+    text-align: center;
 }
 
 .hot-drinks__cost, .cold-drinks__cost, .pastries__cost {
