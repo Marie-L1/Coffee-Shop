@@ -26,6 +26,7 @@ body {
     margin-left: 50px;
     margin-right: 20px;
     padding: 10px;
+    flex: 1;
 }
 
 .nitro-coffee__title {
@@ -42,7 +43,7 @@ body {
     margin-left: 10px;
     margin-bottom: 20px;
     margin-top: 30px;
-    margin-right: 200px;
+    margin-right: 10%;
     flex-basis: 20%;   
     text-align: left;
     height: auto;
