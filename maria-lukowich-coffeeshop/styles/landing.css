@@ -155,6 +155,14 @@ button{
     display: flex;
     justify-content: space-around;
     padding-top: 60px;
+    flex-wrap: wrap;
+}
+
+.address, .hours, .social {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .address__title, .hours__title, .social__title{
@@ -163,29 +171,11 @@ button{
     margin-bottom: 20px;
 }
 
-.address{
-    
-}
-
 .address__description, .address__street, .hours__mon-fri, .hours__sat-sun {
     font-size: 18px;
     font-weight: 300;
 }
 
-.hours{}
-
-.hours__title {
-    
-}
-
-.hours__sat-sun{}
-
-.social{}
-
-
 .social__icon{
     width: 50px;
 }
-
-
-
