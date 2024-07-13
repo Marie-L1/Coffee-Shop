@@ -23,7 +23,7 @@ body {
     justify-content: center;
     max-width: 60%;
     margin-top: 30px;
-    margin-left: 1000px;
+    margin-left: 100px;
     margin-right: 20px;
     padding: 10px;
     flex: 1;
@@ -170,6 +170,7 @@ button{
     max-width: 300px;
     text-align: left;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .address__title, .hours__title, .social__title{
