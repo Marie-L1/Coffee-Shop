@@ -56,6 +56,7 @@ body {
     margin-bottom: 20px;
     margin-left: 60px;
     margin-right: 300px;
+    max-width: 400px;
     white-space: normal;
 }
 
